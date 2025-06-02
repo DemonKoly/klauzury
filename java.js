@@ -43,9 +43,7 @@ ScrollTrigger.create({
   pin: true,
   pinSpacing: true,
   clearProps: "all",
-overwrite: "auto",
-
-
+  overwrite: "auto",
 });
 
 const panels = document.querySelectorAll(".panel");
@@ -61,6 +59,6 @@ gsap.to("#h-wrapper", {
     end: () => `+=${scrollLength}`,
     scrub: true,
     pin: true,
-    invalidateOnRefrest:true,
+    invalidateOnRefrest: true,
   },
 });

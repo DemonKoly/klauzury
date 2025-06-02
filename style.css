@@ -43,7 +43,7 @@ h1:hover {
   background-color: rgb(255, 255, 255);
 }
 #nick {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -68,7 +68,6 @@ h1:hover {
   transform: translateY(0);
   z-index: 9;
 }
-
 
 #aboutme {
   display: flex;
@@ -170,6 +169,7 @@ h1:hover {
 .textbox > h3 {
   font-size: 4vh;
   color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 #scroll {
@@ -434,7 +434,7 @@ h1:hover {
   display: flex;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(rgb(255, 255, 255),black);
+  background: linear-gradient(rgb(255, 255, 255), black);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -466,7 +466,7 @@ button {
   position: relative;
   display: flex;
   width: auto;
-  height:auto;
+  height: auto;
   font-size: 5vh;
   text-align: center;
   justify-self: center;
@@ -487,10 +487,13 @@ button {
 }
 
 @media screen and (max-width: 1024px) {
-  h1{
+  h1 {
     font-size: 6vh;
   }
-  .panel{
-    flex-direction: column;
+  #logoname {
+    font-size: 13vh;
+  }
+  #logoinfo {
+    font-size: 6vh;
   }
 }
