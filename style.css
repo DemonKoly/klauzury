@@ -496,4 +496,12 @@ button {
   #logoinfo {
     font-size: 6vh;
   }
+  .pulse{
+    display: none;
+  }
+  #heroimg{
+    left: 8vh;
+    height: 60vh;
+    width: 50vw;
+  }
 }
